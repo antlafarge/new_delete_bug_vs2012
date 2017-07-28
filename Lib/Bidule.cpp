@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "Bidule.h"
-#include "New.h"
 
 void* Bidule::create()
 {
