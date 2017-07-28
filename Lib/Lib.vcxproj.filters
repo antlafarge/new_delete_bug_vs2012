@@ -24,15 +24,15 @@
     <ClInclude Include="Bidule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\New.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Bidule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="New.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
