@@ -1,26 +1,24 @@
 #include "stdafx.h"
 #include <iostream>
-#include "Machin.h"
+#include "Bidule.h"
 #include <sstream>
 
 int main()
 {
-	/*
-	auto i = new int(13);
-	delete i;
-	*/
-	auto j = new int[12];
+	//auto i = new int(13);
+	//delete i;
+	
+	auto j = new int[10];
 	delete[] j;
+	
 	/*
-	auto m = new Machin();
-	m->test();
-	delete m;
-
-	std::stringstream ss;
-	ss << 13;
-	ss << 37;
-	std::string str = ss.str();
+	auto c = new Bidule();
+	auto h = c->create();
+	//delete h;
+	c->destroy(h);
+	delete c;
 	*/
+
 	std::cin.ignore();
 
 	return 0;
