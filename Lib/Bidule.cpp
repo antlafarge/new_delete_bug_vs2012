@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Bidule.h"
 
 void* Bidule::create()

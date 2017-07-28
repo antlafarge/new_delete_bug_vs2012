@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 #include "Bidule.h"
 #include <sstream>
